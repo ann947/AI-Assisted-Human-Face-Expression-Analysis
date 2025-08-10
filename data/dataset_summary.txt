@@ -1,0 +1,8 @@
+FER-2013 Dataset Summary
+==============================
+Total Images: 35,887
+Training Images: 28,709
+Test Images: 7,178
+Image Dimensions: 48x48 pixels
+Number of Classes: 7
+Classes: Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral
