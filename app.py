@@ -928,8 +928,8 @@ def main():
             recent_predictions = recent_predictions.sort_values('timestamp', ascending=False)
             
             for _, row in recent_predictions.iterrows():
-                status_color = "#ff4444" if row['intervention_required'] else "#ff9500" if row['alert_triggered'] else "#4caf50"
-                status_text = "🚨 INTERVENTION" if row['intervention_required'] else "⚠️ ALERT" if row['alert_triggered'] else "✅ NORMAL"
+                status_color ="#ff4444" if row['intervention_required'] else "#ff9500" if row['alert_triggered'] else "#4caf50"
+                status_text = " INTERVENTION" if row['intervention_required'] else " ALERT" if row['alert_triggered'] else "✅ NORMAL"
                 
                 st.markdown(f"""
                 <div style="border-left: 4px solid {status_color}; padding: 10px; margin: 5px 0; background-color: #f9f9f9;">
