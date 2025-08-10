@@ -507,7 +507,7 @@ def display_enhanced_results_analysis():
             if scenario["emotion"] in ["Angry", "Sad"] and scenario["confidence"] > 0.8:
                 st.markdown('<div class="alert-warning">', unsafe_allow_html=True)
                 st.markdown(f"""
-                **⚠️ INTERVENTION REQUIRED**
+                ** INTERVENTION REQUIRED**
                 - **Emotion Detected**: {scenario["emotion"]}
                 - **Confidence**: {scenario["confidence"]:.1%}
                 - **Context**: {scenario["context"]}
@@ -517,7 +517,7 @@ def display_enhanced_results_analysis():
             elif scenario["emotion"] in ["Angry", "Sad", "Disgusted"]:
                 st.markdown('<div class="alert-warning">', unsafe_allow_html=True)
                 st.markdown(f"""
-                **🔔 ALERT TRIGGERED**
+                ** ALERT TRIGGERED**
                 - **Emotion Detected**: {scenario["emotion"]}
                 - **Confidence**: {scenario["confidence"]:.1%}
                 - **Context**: {scenario["context"]}
@@ -527,7 +527,7 @@ def display_enhanced_results_analysis():
             else:
                 st.markdown('<div class="alert-success">', unsafe_allow_html=True)
                 st.markdown(f"""
-                **✅ NORMAL OPERATION**
+                ** NORMAL OPERATION**
                 - **Emotion Detected**: {scenario["emotion"]}
                 - **Confidence**: {scenario["confidence"]:.1%}
                 - **Context**: {scenario["context"]}
