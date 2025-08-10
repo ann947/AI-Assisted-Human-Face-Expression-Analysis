@@ -655,7 +655,7 @@ def main():
                             if intervention_required:
                                 st.markdown('<div class="alert-warning">', unsafe_allow_html=True)
                                 st.markdown(f"""
-                                **⚠️ IMMEDIATE INTERVENTION REQUIRED**
+                                ** IMMEDIATE INTERVENTION REQUIRED**
                                 - **Emotion**: {emotion}
                                 - **Confidence**: {np.max(predictions):.1%}
                                 - **Processing Time**: {processing_time:.3f}s
