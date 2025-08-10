@@ -666,7 +666,7 @@ def main():
                             elif alert_triggered:
                                 st.markdown('<div class="alert-warning">', unsafe_allow_html=True)
                                 st.markdown(f"""
-                                **🔔 ALERT TRIGGERED**
+                                ** ALERT TRIGGERED**
                                 - **Emotion**: {emotion}
                                 - **Confidence**: {np.max(predictions):.1%}
                                 - **Processing Time**: {processing_time:.3f}s
