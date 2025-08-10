@@ -1,4 +1,4 @@
-,accuracy,precision,recall,f1,training_time,rank
+Model,accuracy,precision,recall,f1,training_time,rank
 CNN,0.5343,0.5252,0.5343,0.5199,941.5744,1
 Random Forest,0.47,0.4784,0.47,0.451,49.7851,2
 Neural Network MLP,0.4267,0.4214,0.4267,0.4232,245.6858,3
